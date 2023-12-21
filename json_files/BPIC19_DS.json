@@ -1,13 +1,21 @@
 [
   {
     "name": "BPIC19",
-    "file_directory": "data\\BPIC19\\",
+    "file_directory": "data\\",
     "file_names": [
       "BPI_Challenge_2019.csv"
     ],
     "encoding": "cp1252",
     "labels": [
-      "Record"
+      "EventRecord",
+      "VendorRecord",
+      "VendorEventRecord",
+      "CompanyRecord",
+      "PurchaseOrderRecord",
+      "PurchaseOrderItemRecord",
+      "InvoiceRecord",
+      "HumanResourceRecord",
+      "SystemResourceRecord"
     ],
     "add_log": true,
     "add_index": true,
@@ -17,26 +25,26 @@
         "use_random_sample": false,
         "population_column": "case Purchasing Document",
         "ids": [
-          4508062571,
-          4507010217,
-          4507000321,
-          4507040910,
-          4507021063,
-          4507024440,
-          4507001109,
-          4507020425,
-          4507014406,
-          4507018608,
-          4508066411,
-          4508053414,
-          4507010940,
-          4507022053,
-          4507016146,
-          4508044395,
-          4508072550,
-          4507002104,
-          4507020767,
-          4508057849
+          "4508062571",
+          "4507010217",
+          "4507000321",
+          "4507040910",
+          "4507021063",
+          "4507024440",
+          "4507001109",
+          "4507020425",
+          "4507014406",
+          "4507018608",
+          "4508066411",
+          "4508053414",
+          "4507010940",
+          "4507022053",
+          "4507016146",
+          "4508044395",
+          "4508072550",
+          "4507002104",
+          "4507020767",
+          "4508057849"
         ]
       }
     ],
