@@ -2,12 +2,18 @@
 ---------------------
 ## Installation
 ### Neo4j
-The library assumes that Neo4j is installed.
+The code assumes that Neo4j is installed.
 
 Install [Neo4j](https://neo4j.com/download/):
 
 - Use the [Neo4j Desktop](https://neo4j.com/download-center/#desktop)  (recommended), or
 - [Neo4j Community Server](https://neo4j.com/download-center/#community)
+
+### PromG
+PromG should be installed as a Python package using pip
+`pip install promg=1.0.1`.
+
+The source code for PromG can be found [PromG Core Github repository](https://github.com/PromG-dev/promg-core).
 ---------------------
 ## Get started
 
